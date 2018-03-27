@@ -1,0 +1,27 @@
+{
+  "name": "arduinocharbot",
+  "version": "1.0.0",
+  "description": "este es un proyecto para trabajar arduino via telegram",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chepecarlos/ArduinoChatBot.git"
+  },
+  "keywords": [
+    "arduino",
+    "nodejs",
+    "telegram"
+  ],
+  "author": "chepecarlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chepecarlos/ArduinoChatBot/issues"
+  },
+  "homepage": "https://github.com/chepecarlos/ArduinoChatBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
