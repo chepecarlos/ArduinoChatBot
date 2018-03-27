@@ -1,7 +1,7 @@
-# ArduionoTelegramBot
+# ArduinoCharBot
 
 programa para comunicar Arduino y Telegram por medio de Nodojs
 
-#Contribuidores
+# Contribuidores
 
 Chepecarlos chepecarlos@alswblog.org
