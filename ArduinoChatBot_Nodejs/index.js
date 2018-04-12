@@ -5,13 +5,15 @@ const bot = new TelegramBot(token, {
   polling: true
 });
 
-bot.onText(/\/echo (.+)/, (msg, match) => {
-  const chatId = msg.chat.id;
-  const resp = match[1];
-  bot.sendMessage(chatId, resp);
-});
-
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, 'Received your message');
+  var Mensaje = msg.text;
+  if (Mensaje == "encender") {
+    console.log("encendiendo el led");
+    bot.sendMessage(chatId, 'Encendere el led');
+  } else if (Mensaje == "apagar") {
+    console.log("apagar el led");
+    bot.sendMessage(chatId, 'Apagare el led');
+  }
+
 });
