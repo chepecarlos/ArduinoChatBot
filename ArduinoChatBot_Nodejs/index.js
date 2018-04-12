@@ -1,10 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '598936675:AAFCIFQoi6w9O8AXslgidlAii5LZ_GF8o7M';
+const token = 'xxx';//Cambiar por el token de telegram
 const bot = new TelegramBot(token, {
   polling: true
 });
-var IdMiChat = 30085334;
+var IdMiChat = 000;//cambiar por tu ID del chat
 
 var SerialPort = require('serialport');
 var MiPuerto = new SerialPort('/dev/ttyUSB0', {
